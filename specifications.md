@@ -3,7 +3,7 @@ Specifications for development of a sub-warehouse feature for ERNext
 
 1. we should think in terms of **hierarchically stacked 'locations'** (no matter whether that's a warehouse, a shelf, a bin, etc. whose place inside such hierarchy is defined by it's 'parent' location. 
 2. The **mother** or **root** warehouse of any stack just wouldn't have any 'parent' 
-3. So having a 'parent' or not is a mater of choice rather then mandatory
+3. So having a 'parent' or not is a matter of choice rather then mandatory
 4. there is a 'parent' field in each warehouse which by default is empty.
 5. **location type** might be a value that has to be set (and the type should be something that can be defined) by the user. 
 I guess warehouse might be the default value. Other types can be defined freely. Some default values should be 'warehouse', 'rack', ' shelf, 'bin'
