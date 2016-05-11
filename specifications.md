@@ -1,5 +1,6 @@
 Specifications for development of a sub-warehouse feature for ERNext
 ----------------------------
+The feature has to be merged upstream into the main ERPNext branch, therefore developers are expected to collaborate and consult with Frappé team in order to maintain necessary level of the code.
 
 1. we should think in terms of **hierarchically stacked 'locations'** (no matter whether that's a warehouse, a shelf, a bin, etc. whose place inside such hierarchy is defined by it's 'parent' location. 
 2. The **mother** or **root** warehouse of any stack just wouldn't have any 'parent' 
